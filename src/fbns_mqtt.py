@@ -92,7 +92,7 @@ class FBNSConnectPackageFactor(PackageFactory):
         session_id = int((time.time() - last_monday) * 1000)
 
         client_info.clientMqttSessionId = session_id
-        client_info.subscribeTopics = [int(FBNSMQTTMQTTClient.MESSAGE_TOPIC_ID), int(FBNSMQTTMQTTClient.REG_RESP_TOPIC_ID)]
+        client_info.subscribeTopics = [int(FBNSMQTTClient.MESSAGE_TOPIC_ID), int(FBNSMQTTClient.REG_RESP_TOPIC_ID)]
         client_info.clientType = 'device_auth'
         client_info.appId = 567310203415052  # Const
         client_info.deviceSecret = fbns_auth.deviceSecret
