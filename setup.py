@@ -13,4 +13,5 @@ setup(name='fbns_mqtt',
       install_requires=[
           'gmqtt',
           'thriftpy',
-      ], )
+      ],
+      include_package_data=True,)
