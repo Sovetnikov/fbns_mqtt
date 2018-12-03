@@ -8,3 +8,7 @@ Complete example of receiving instagram notifications using [Instagram private A
 ) located in file [examples/instagram_push_notifications.py](examples/instagram_push_notifications.py) 
 
 Tested with Python 3.7
+
+```bash
+pip install https://github.com/Sovetnikov/fbns_mqtt/archive/master.zip
+```
