@@ -104,7 +104,6 @@ async def instagram_listener_worker():
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
-    # task = loop.create_task(instagram_listener_worker())
 
     try:
         loop.run_until_complete(instagram_listener_worker())
